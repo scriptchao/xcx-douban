@@ -25,7 +25,8 @@ Page({
           'content-type': 'application/xml'
         },
         success: (res) => {
-          moviesData.in_theaters = res.data
+          moviesData.in_theaters = res.data;
+          console.log(moviesData)
 
           this.setData({
             moviesData
@@ -99,6 +100,7 @@ Page({
 
   bindconfirm(e) {
     let text = e.detail.value
+    console.log(66666)
 
     wx.request({
       // GET /v2/movie/search?q=张艺谋 GET /v2/movie/search?tag=喜剧

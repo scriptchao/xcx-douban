@@ -1,6 +1,6 @@
 <view class="wrapper">
   <view class="userinfo">
-    <image class="userinfo-avatar" src="/img/电影.png"></image>
+    <image class="userinfo-avatar" src="/img/movie.png"></image>
     <text class="userinfo-nickname font-normal">导演是用镜头写作的作家</text>
   </view>
 

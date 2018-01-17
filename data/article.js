@@ -11,7 +11,7 @@ let articleData = [
     comtext: 66,
     img: {
       avatar: '/img/avatar/timg.jpg',
-      articleimage: 'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'
+      articleimage: 'http://img2.3lian.com/2014/f2/188/d/105.jpg'
     }
   },
   {

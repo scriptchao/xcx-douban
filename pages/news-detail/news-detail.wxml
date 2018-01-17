@@ -12,9 +12,9 @@
 
   <view class="tool">
     <view class="img">
-      <image class="{{musicFlag ? 'music' : 'no-music'}}" src="../../img/音乐.png" catch:tap="music"></image>
-      <image class="{{favFlag ? 'fav' : 'no-fav'}}" src="../../img/收藏1.png" catch:tap="toggleFav"></image>
-      <image class="share" src="../../img/分享.png" catch:tap="share"></image>
+      <image class="{{musicFlag ? 'music' : 'no-music'}}" src="../../img/music.png" catch:tap="music"></image>
+      <image class="{{favFlag ? 'fav' : 'no-fav'}}" src="../../img/collect1.png" catch:tap="toggleFav"></image>
+      <image class="share" src="../../img/share.png" catch:tap="share"></image>
     </view>
 
     <view class="line"></view>

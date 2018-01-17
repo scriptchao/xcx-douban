@@ -14,10 +14,10 @@
     <text class="article-content font-normal">{{ content }}</text>
 
     <view class="bottom">
-      <image class="fav" src="/img/收藏.png"></image>
+      <image class="fav" src="/img/collect.png"></image>
       <text class="fav-text font-normal">{{ favtext }}</text>
 
-      <image class="com" src="/img/评论.png"></image>
+      <image class="com" src="/img/comment.png"></image>
       <text class="com-text font-normal">{{ comtext }}</text>
     </view>
   </view>
@@ -65,11 +65,11 @@
   <view class="star">
     <view class="img">
       <block wx:for="{{ ~~(rating.stars / 10) }}" wx:key="{{ new Date() }}">
-        <image src="../../img/icon/星.png"></image>
+        <image src="/img/icon/stared.png"></image>
       </block>
 
       <block wx:for="{{ 5 - ~~(rating.stars / 10) }}" wx:key="{{ new Date() }}">
-        <image src="../../img/icon/星 (2).png"></image>
+        <image src="/img/icon/star.png"></image>
       </block>
     </view>
 

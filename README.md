@@ -7,5 +7,6 @@
 # 运行
 ```
 git clone https://github.com/scriptchao/xcx-douban.git
+
 使用微信web网页开发者工具打开即可预览
 ```
